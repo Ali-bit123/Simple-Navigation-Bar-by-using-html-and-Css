@@ -1,0 +1,61 @@
+.container{
+
+height: 150px;
+    border: 3px solid darkred;
+background-color: aqua;
+display: flex;
+/* flex-direction:column-reverse; */
+align-items:flex-end;
+align-items: center;
+justify-content:space-around;
+/* flex-wrap: wrap; */
+}
+#D1{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 5px;
+    text-align: center;
+    color: white;
+    border: 3px solid chocolate;
+    align-items: center;
+    order: 3;
+    align-self:baseline;
+    /* flex-grow: 2;*/ /*----->for enpanding */
+}
+#D2{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin: 5px;
+    text-align: center;
+    color: white;
+    border: 3px solid chocolate;
+    order: 4;
+    flex-shrink: 2;
+    align-self:flex-end;  
+}
+#D3{
+    width: 100px;
+    height: 100px;
+    background-color:crimson;
+    margin: 5px;
+    text-align: center;
+    border: 3px solid chocolate;
+    color: white;
+    order: 2;
+    align-self:self-end;
+
+}
+#D4
+{
+    width: 100px;
+    height: 100px;
+    background-color:green;
+    margin: 5px;
+    text-align: center;
+    border: 3px solid chocolate;
+    color: white;
+
+}
+    
